@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>CURRENCY CONVERTER</h1>
+      <input type="number" id="textbox" /><br />
+      <input type="radio" id="tousd" name="unit" />
+      <label for="tousd"></label>
+      <label for="tousd"> CONVERT TO USD $</label><br />
+      <input type="radio" id="toind" name="unit" />
+      <label for="toind"> CONVERT TO IND RUPEES </label><br />
+      <button type="button" onclick="convert()">SUBMIT</button>
+      <p id="result">select options to convert</p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

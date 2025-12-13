@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(0, 22%, 87%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+form {
+  background-color: #fff;
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  margin: auto;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.577);
+}
+#textbox {
+  margin: 0;
+  padding: 1em;
+  background: #0000001d;
+  text-align: center;
+  border-radius: 10px;
+  border: #0000001d;
+}
+#result {
+  background: #c3929230;
+  height: 1.5em;
+  width: auto;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.577);
+}
