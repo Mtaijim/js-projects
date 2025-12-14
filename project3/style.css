@@ -1,0 +1,23 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: #000000;
+  color: #adadad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#button {
+  background: hsl(240, 79%, 78%);
+  height: 2.5em;
+  width: auto;
+  padding: 10px;
+  font-weight: bold;
+}
+#result {
+  background: #262626;
+  color: white;
+  height: 1.2rem;
+  width: 40%;
+  padding: 8px;
+}
