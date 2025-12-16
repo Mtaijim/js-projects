@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #484848;
+}
+#myH1 {
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f0efef;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid grey;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #c1ceee;
+}
+#display {
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(119, 118, 118);
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 10px;
+}
+#controls {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+}
+#startbtn {
+  background: hsl(113, 100%, 67%);
+  border: none;
+  padding: 10px 20px;
+  font-family: monospace;
+  border-radius: 10px;
+}
+#startbtn:hover {
+  background-color: rgb(0, 255, 42);
+}
+#stopbtn {
+  background: hsl(0, 100%, 68%);
+  border: none;
+  padding: 10px 20px;
+  font-family: monospace;
+  border-radius: 10px;
+}
+#stopbtn:hover {
+  background-color: rgb(255, 110, 110);
+}
+#resetbtn {
+  background: hsl(139, 100%, 66%);
+  border: none;
+  padding: 10px 20px;
+  font-family: monospace;
+  border-radius: 10px;
+}
+#resetbtn:hover {
+  background-color: rgb(121, 255, 168);
+}
