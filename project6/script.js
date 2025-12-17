@@ -12,6 +12,7 @@ function calculate() {
     display.value = "Error";
   }
 }
+// factorial
 function factorial() {
   try {
     let number = parseInt(display.value);
