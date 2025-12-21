@@ -1,0 +1,7 @@
+p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3rem;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.238);
+}
