@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit {
+  position: relative;
+  padding: 20px;
+  width: 200px;
+  color: #ffff;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.pop-up {
+  position: absolute;
+  border-radius: 6px;
+  top: 0;
+  transform: scale(0.1);
+  background-color: rgb(32, 249, 177);
+  padding: 20px;
+  text-align: center;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.pop-up button {
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+  border: #ffff;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.737);
+  font-weight: bold;
+  color: white;
+}
+.openpopup {
+  visibility: visible;
+  transform: scale(1);
+  top: 45%;
+}
