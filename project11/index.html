@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-bar</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="website-container">
+    <div id="sidebar" class="sidebar-container">
+      <div class="logo-content">
+        <i id="codeIcon" class="bx bx-code "></i>
+        <div class="logo_Name">coding project</div>    <i id="btn" class="bx bx-menu" onclick="sidebar()" ></i>
+      </div>
+  
+      <nav class="navbar">
+        <div class="nav_list">
+          <ul>
+            <li class="links">
+              <a href="#"
+                ><i class='bx  bx-dashboard'  ></i>  <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="links">
+              <a href="#"><i class='bx  bx-user'  ></i>  <span>user</span> </a>
+            </li>
+            <li class="links">
+              <a href="#"
+                ><i class='bx  bx-message'  ></i> <span>Messages</span>
+              </a>
+            </li>
+            <li class="links">
+              <a href="#"
+                ><i class='bx  bx-pie-chart-alt'  ></i>  <span>Analytics</span>
+              </a>
+            </li>
+            <li  class="links" >
+              <a href="#"><i class='bx  bx-folder-open'  ></i>  <span>file Manager</span> </a>
+            </li>
+            </li>
+            <li class="links">
+              <a href="#"><i class='bx  bx-cart'  ></i> <span>order</span> </a>
+            </li>
+            </li>
+            <li class="links">
+              <a href="#"><i class='bx  bx-cog'  ></i>  <span>settings</span> </a>
+            </li>
+          </ul>
+          
+        </div>
+
+      </nav> 
+      <div class="profile_content">
+            <div class="user_logo">
+        
+            </div>
+            <div class="user_name"> 
+    
+              <p>user_name</p>
+            </div>
+          </div>
+    </div>
+    </div>
+    <script>
+      const sidebr = document.getElementById("sidebar")
+  function sidebar(){
+sidebr.classList.toggle("active");
+  }
+    </script>
+  </body>
+</html>
